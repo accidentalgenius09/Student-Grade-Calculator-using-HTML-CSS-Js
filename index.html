@@ -24,27 +24,29 @@
         </div>
         <div class="col-sm-8 cyan">
                 <h1 class="head">Enter Your Marks</h1>
-                <div class="form-group">
-               
-                  <input type="text" class="form-control" placeholder="Mathematics" id="maths">
+                <form>
+                  <div class="form-group">
                 
-                </div>
-                <div class="form-group">
-               
-                    <input type="text" class="form-control" placeholder="Chemistry" id="chem">
+                    <input type="text" class="form-control" placeholder="Mathematics" id="maths" required>
                   
                   </div>
                   <div class="form-group">
-               
-                    <input type="text" class="form-control" placeholder="English" id="eng">
-                  
+                
+                      <input type="text" class="form-control" placeholder="Chemistry" id="chem" required>
+                    
+                    </div>
+                    <div class="form-group">
+                
+                      <input type="text" class="form-control" placeholder="English" id="eng" required>
+                    
+                    </div>
+                  <div class="form-group">
+      
+                    <input type="text" class="form-control" placeholder="Physics" id="phy" required>
                   </div>
-                <div class="form-group">
-    
-                  <input type="text" class="form-control" placeholder="Physics" id="phy">
-                </div>
 
-                <button type="submit" onclick="getmarks()" class="btn-primary">Submit</button>
+                  <button type="submit" onclick="getmarks()" class="btn-primary">Submit</button>
+                </form>
         </div>
       </div>
         <div class="row">
