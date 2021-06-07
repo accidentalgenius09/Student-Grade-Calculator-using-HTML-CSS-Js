@@ -15,8 +15,7 @@ body{
     padding: 3%;
 }
 .mainhead{
-    position: relative;
-    left: 490px;
+    text-align: center;
 }
 .head{
     color:yellow;
@@ -32,10 +31,6 @@ body{
     color: red;
 }
 @media(max-width:900px){
-    .mainhead{
-        position: relative;
-        left: 180px;
-    }
     .bg-dark{
         padding: 0%;
     }
